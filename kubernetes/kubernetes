@@ -1,0 +1,23 @@
+all:
+
+    children:
+
+    kubernets:
+
+      hosts:
+
+        master:
+
+          ansible_host: 192.168.1.10
+
+          ansible_user: leo
+
+        slave1:
+
+          ansible_host: 192.168.101.251
+
+          ansible_user: slave1
+	
+	slave2:
+	  ansible_host:
+	  ansible_user: slave2
